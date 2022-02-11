@@ -34,9 +34,9 @@
 <body>
     <div id="wrap" class="board_wrap">
         <div>
-            <h2>Board Form</h2>
+            <h1>Board Form</h1>
             <p class="total_cnt">전체 글 개수 : <?=$total?></p>
-            <table border="1" width="800">
+            <table>
                 <tr>
                     <th>번호</th>
                     <th>제목</th>
@@ -78,7 +78,7 @@
             if($page == $i) {
                 echo "[".$i."]";
             } else {
-                echo "<a href='./board.php?page=$i'>"."[".$i."]"."</a>";
+                echo "<a href='./board.php?page=$i' class='pn_btn'>"."[".$i."]"."</a>";
             }
         }
 ?>
