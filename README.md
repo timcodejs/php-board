@@ -1,6 +1,6 @@
 # php-board
 
-## PHP로 간단한 로그인 및 회원가입 폼 만들기
+## PHP로 간단한 로그인 및 게시판 폼 만들기
 
 index.php          - 로그인 폼<br>
 login_ok.php       - 로그인 성공 시 데이터 처리하는 페이지<br>
